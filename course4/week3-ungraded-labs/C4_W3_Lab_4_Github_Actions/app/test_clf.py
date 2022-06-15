@@ -14,5 +14,5 @@ def test_accuracy():
     # Compute accuracy of classifier
     acc = clf.score(X_test, y_test)
 
-    # Accuracy should be over 90%
-    assert acc > 0.9
+    # Accuracy should be over OR EQUAL 90%
+    assert acc >= 0.9
